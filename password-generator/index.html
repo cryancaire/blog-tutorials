@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="passgen.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Generate a Password</h2>
+        <div class="generated-pwd-div"></div>
+        <div class="pwd-options">
+            <div class="length-option-div">
+                <label for="pwdLenSlider">Length: </label>
+                <input type="range" min="6" max="25" value="8" class="slider" id="pwdLenSlider"> <span class="pwd-len-display">8</span>
+            </div>
+            <div class="special-chars-option-div">
+                <label for="specialCharsOption">Special Characters? </label>
+                <input type="checkbox" id="specialCharsOption" class="specialCharsOption">
+            </div>
+            <div class="numbers-option-div">
+                <label for="numbersOption">Numbers? </label>
+                <input type="checkbox" id="numbersOption" class="numbersOption">
+            </div>
+            <div class="generate-btn-div">
+                <button class="generate-pwd-btn">Generate</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

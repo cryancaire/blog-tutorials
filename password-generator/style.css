@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color:cadetblue;
+}
+
+.container {
+    background-color:beige;
+    margin-top: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 0.5em;
+    border: 1px solid rgb(83, 100, 117);
+    padding: 2rem;
+    width: fit-content;
+    font-size: 2rem;
+}
