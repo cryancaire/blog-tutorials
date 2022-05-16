@@ -2,7 +2,7 @@ const input = document.querySelector('.input-sort');
 const sortedDiv = document.querySelector('.sorted-output');
 
 let characters = [];
-let apiURL = `http://hp-api.herokuapp.com/api`;
+let apiURL = `https://hp-api.herokuapp.com/api`;
 
 window.addEventListener('DOMContentLoaded', (event) => {
     fetch(`${apiURL}/characters`)
